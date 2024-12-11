@@ -1,3 +1,5 @@
+// make objects for car and model as a model
+
 let car = {
     brand: 'Toyota',
     model: 'Corolla',
