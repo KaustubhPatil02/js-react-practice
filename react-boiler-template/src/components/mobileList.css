@@ -1,0 +1,22 @@
+.mobile-main{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px; 
+    border: 2px solid #f1f1f1;
+    padding: 10px;
+}
+
+.mobile-img{
+    flex: 0 0 100px;
+    margin-right: 30px;
+    display: block;
+    max-width: 100px;
+}
+.price{
+    background: #fdf9f9;
+    color: #120202;
+    font-size: 1.5rem;
+    margin-top: 10px;
+    border-radius: 10px;
+    align-content: center;
+}
