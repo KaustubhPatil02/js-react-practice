@@ -1,0 +1,24 @@
+.body-container {
+    margin-bottom: 20px;
+  }
+  
+  .textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .document-container {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 4px;
+  }
+  
+  .document-body {
+    min-height: 100px;
+  }
+  
+  .paragraph-highlight-class {
+    background-color: #add8e6;
+  }

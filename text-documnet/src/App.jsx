@@ -27,7 +27,7 @@ const App = () => {
 
   return (
     <>
-      <div className="text-4xl flex items-center justify-center underline">
+      <div className="flex items-center justify-center text-4xl underline">
         Text - document problem
       </div>
       {/* text area */}
