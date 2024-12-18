@@ -1,14 +1,14 @@
 import React from 'react'
 import Mobile from './components/Mobile'
-import ChildComponent from './practice/ChildComponent'
-import ParentComponent from './practice/ParentComponent'
+import ChildComponent from './props/ChildComponent'
+import ParentComponent from './props/ParentComponent'
 
 const App = () => {
   return (
     // <Mobile />
     <>
       {/* <ChildComponent/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
     </>
   )
 }
