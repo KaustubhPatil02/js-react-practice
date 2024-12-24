@@ -14,6 +14,6 @@ export const calculateLogic = (prevalue, operator, nextvalue)=>{
         case '*':
             return num1 * num2;
         case '/':
-            return num1 / num2;
+            return num2 !== 0 ? (num1 / num2).toString() : "Error or undefined"
     }
 };
