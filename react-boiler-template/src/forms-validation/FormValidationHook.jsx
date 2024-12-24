@@ -11,7 +11,7 @@ function FormValidationHook() {
   const onSubmit = (data) => {
     console.log("Form Submitted Successfully:", data);
   };
-
+     
   return (
     <form onSubmit={handleSubmit(onSubmit)}>
       <div>
