@@ -8,6 +8,8 @@ const LikeUnlike = () => {
     const [err, setErr] = useState(null);
 
     const handleLike = async () => {
+        if(fetching) return; // Prevent multiple clicks while fetching
+        // Toggle the like state optimistically
         setFetching(true);
         setErr(null);
 
@@ -41,6 +43,8 @@ const LikeUnlike = () => {
             className={`likebtn ${like ? "Liked" : ""}`} 
             onClick={handleLike} 
             disabled={fetching}
+            aria-label={like ? "Unlike this post" : "Like this post"}
+                style={fetching ? { cursor: "not-allowed", opacity: 0.6 } : {}}
           >
             {fetching ? <SpinnerIcon /> : <><HeartIcon /> {like ? "Liked" : "Like"}</>}
           </button>
