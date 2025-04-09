@@ -17,6 +17,6 @@ The modal dialog should contain the following elements:
 The dialog tag HTML element is available but for the sake of practice, implement a modal dialog without using that element.
 
 Output:
-![modalscreen](/modal.png)
-![modalscreen](/modal1.png)
-![modalscreen](/modal2.png)
+![modalscreen](/modal/public/modal.png)
+![modalscreen](/modal/public/modal1.png)
+![modalscreen](/modal/public/modal2.png)
