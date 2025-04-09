@@ -5,7 +5,7 @@ const Modal = ({ title, children, show, onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 flex items-center justify-center bg-transparent bg-opacity-50"
+      className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50"
       style={{ zIndex: 1000 }}
     >
       <div className="p-6 bg-white rounded shadow-lg w-96">

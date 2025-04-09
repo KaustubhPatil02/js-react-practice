@@ -1,12 +1,22 @@
-# React + Vite
+# Build a reusable modal dialog component that can be opened and closed with customizable title and contents.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+#### Modal dialogs are interactive overlay windows that temporarily disable the main content of a web page, focusing user attention on specific tasks or information. They serve various purposes, including displaying critical alerts, requesting user input, confirming actions, and presenting additional content without navigating away from the current context.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Requirements
+The modal dialog should contain the following elements:
+1. Title/heading string.
+2. Any contents as the body.
+3. Close button that hides/closes the modal when clicked.
+4. The modal dialog is centered horizontally and vertically on the screen.
+5. The modal dialog is displayed above a semi-transparent background overlay.
+6. The focus of the exercise is on the functionality and not the styling.
+7. Design the necessary props or configuration options for the modal dialog based on the above requirements.
 
-## Expanding the ESLint configuration
+## Notes
+The dialog tag HTML element is available but for the sake of practice, implement a modal dialog without using that element.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Output:
+![modalscreen](/modal.png)
+![modalscreen](/modal1.png)
+![modalscreen](/modal2.png)
